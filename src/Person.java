@@ -19,4 +19,9 @@ public class Person {
         person = new Person("Lagutenko", "Ilya");
     }
 
+    public void changePerson2(Person person){
+        this.name = "Ilya";
+        this.surname = "Lagutenko";
+    }
+
 }
